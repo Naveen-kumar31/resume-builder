@@ -8,7 +8,7 @@ app.use(express.json());
 app.use(cors());
 
 
-mongoose.connect("mongodb://NaveenKumar:Naveen2002@ac-9aql497-shard-00-00.cc5ii0y.mongodb.net:27017,ac-9aql497-shard-00-01.cc5ii0y.mongodb.net:27017,ac-9aql497-shard-00-02.cc5ii0y.mongodb.net:27017/?ssl=true&replicaSet=atlas-g2ueyg-shard-0&authSource=admin&retryWrites=true&w=majority",
+mongoose.connect("mongodb://NaveenKumar:naveen123@ac-9aql497-shard-00-00.cc5ii0y.mongodb.net:27017,ac-9aql497-shard-00-01.cc5ii0y.mongodb.net:27017,ac-9aql497-shard-00-02.cc5ii0y.mongodb.net:27017/?ssl=true&replicaSet=atlas-g2ueyg-shard-0&authSource=admin&retryWrites=true&w=majoritymongodb://NaveenKumar:<password>@ac-9aql497-shard-00-00.cc5ii0y.mongodb.net:27017,ac-9aql497-shard-00-01.cc5ii0y.mongodb.net:27017,ac-9aql497-shard-00-02.cc5ii0y.mongodb.net:27017/?ssl=true&replicaSet=atlas-g2ueyg-shard-0&authSource=admin&retryWrites=true&w=majority",
  {
    useNewUrlParser: true,
    

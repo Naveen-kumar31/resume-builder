@@ -4,9 +4,6 @@ import { useReactToPrint } from 'react-to-print';
 
 
 
-
-
-
 const ResumeState = (props) => {
 
     const componentRef = useRef();
